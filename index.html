@@ -9,46 +9,128 @@
 </head>
 <body>
     <h1>Saikat Ghosh's components library</h1>
+
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere eligendi animi, quidem quos ducimus reprehenderit architecto dolores porro beatae fugiat
      nobis fuga laudantium veritatis cum, aperiam obcaecati quo ipsam eius sapiente illo ratione dolore quasi unde!</p>
+
      <hr>
+
      <h2>@typography</h2>
+
      <h1>Saikat Ghosh</h1>
+
      <h2>2nd largest front</h2>
+
      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Accusantium voluptatem nisi similique ullam, minima mollitia repellat harum,
+        Accusantium voluptatem nisi <strong> similique ullam, minima mollitia repellat harum,</strong>
          necessitatibus ipsa fuga quidem aperiam eum, assumenda esse sint ipsum nam cumque iusto iure quo. 
          Ducimus vero quibusdam nesciunt!</p>
+
     <small>This is a small text</small>
+
     <hr>
+
     <h2>@container</h2>
+
     <h3>Fluid Container</h3>
-    <div>This is a fluid container </div>
+
+    <div class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat inventore eligendi in sed tenetur. Nostrum, quisquam. Quas, ullam magni eius velit sit eaque quae hic cupiditate quibusdam numquam aspernatur nesciunt!</div>
+
     <h3>Center Container</h3>
-    <div>This is a center container</div>
+
+    <div class="container container-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem officiis cupiditate iste voluptatibus a illo, consequatur expedita ullam, ipsa nihil nisi iure voluptatem blanditiis maiores sed vitae ea voluptatum.</div>
+
     <hr>
+
+    
     <h2>@links</h2>
-    <a href="">Primary Link</a>
-    <a href="">Secondary Link</a>
+
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
     <hr>
+
     <h2>@list</h2>
-    <h3>Here is my inline list</h3>
-    <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
+
+    <h3>Here is my non bullet list</h3>
+
+    <ul class="non_bullet">
+        <li>
+            one
+        </li>
+        <li>two</li>
+        <li>Three</li>
     </ul>
+
+    <h3>Here is my inline list</h3>
+
+    <ul class="non_bullet">
+        <li class="inline">item 1</li>
+        <li class="inline">item 2</li>
+        <li class="inline">item 3</li>
+    </ul>
+
     <h3>Here is my reverse order list</h3>
-    <ol>
-        <li>1st</li>
-        <li>2nd</li>
+
+    <ol reversed>
         <li>3rd</li>
+        <li>2nd</li>
+        <li>1st</li>
     </ol>
+
     <hr>
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+        <div class="navigation_1">Saikat's Portfolio</div>
+        <ul class="non_bullet nav-right">
+            <li class="inline">
+                <a class="link link-active" href="">Home</a>
+            </li>
+            <li class="inline">
+                <a class="link" href="">Project</a>
+            </li>
+            <li class="inline">
+                <a class="link" href="">Personal Information</a>
+            </li>
+            <li class="inline">
+                <a class="link" href="">Blog</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
     <h2>@header</h2>
-    <img src="images/undraw_programming_re_kg9v.svg" alt="">
-    <footer id="a">
-        This is footer.
+    <header class="head">
+        <img class="head-img" src="images/undraw_programming_re_kg9v.svg" alt="Picture is not loading">
+        <h1 class="head-header">Software Development Engineer in Test (SDET), with 1.11 years of experience in <span class="head-color"> UI Development and UI automation Testing Technologies</span></h1>
+    </header>
+    
+    <hr>
+
+    <h2>@Section</h2>
+    <section>
+        <h3>White Section</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum ipsam veritatis sapiente, 
+    quae ut laudantium ratione quis voluptatem optio voluptates amet velit a, nisi error, vero magnam ex molestias! Accusamus.</p>
+    </section>
+
+    <section>
+        <h3>Off White Section</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero illum autem dignissimos dolorem repellat quaerat.
+     Libero, cum aliquam pariatur porro, dicta vitae fuga odio, hic illo aspernatur quia unde consectetur!</p>
+    </section>
+    <hr>
+
+    <h2>@footer</h2>
+    <footer>
+        <small>Some small heading</small>
+        <ul>
+            <li><a href="">Social One</a></li>
+            <li><a href="">Social Two</a></li>
+            <li><a href="">Social Three</a></li>
+        </ul>
     </footer>
 </body>
 </html>
