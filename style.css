@@ -1,4 +1,107 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
+
+:root{
+    --primarycolor: #6366f1;
+    --darkgrey:#374151;
+    --secondarycolor:#ccfbf1;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    margin: 2rem 0rem;
+}
+
+/** spaces **/
+
+/* .margin-md {
+    margin: 2rem;
+} */
+.container{
+    padding-left: 0rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    /* text-align: center; */
+}
+
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primarycolor);
+    border-radius: 1rem;
+    color: white;
+    margin: 1rem,1rem,1rem,0rem;
+}
+
+.link-secondary{
+  border: 1px solid var(--primarycolor);
+  color: var(--primarycolor);
+  border-radius: 1rem;
+}
+
+.non_bullet{
+    list-style: none;
+}
+.inline{
+    display: inline;
+    padding: 0rem, 0.5rem;
+    margin: 0rem, 1rem;
+}
+
+.navigation{
+    background-color:var(--primarycolor);
+    color: white;
+    padding: 2rem;
+    border-bottom-left-radius: 1rem;
+}
+
+/* not working */
+.navigation_1{
+    font-weight: bold;
+    
+}
+
+.nav-right{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+
+/* not working */
+.navigation .link-active{
+    font-weight:  bold;
+}
+
+.head{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.head-img{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.head-header{
+    max-width: 760px;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    color: var(--darkgrey);
+}
+
+.head-color{
+    color: var(--primarycolor);
+}
+
+
