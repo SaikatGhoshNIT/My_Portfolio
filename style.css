@@ -157,3 +157,18 @@ hr {
 .foot .color{
     color: white;
 }
+
+
+/* About */
+
+.ul-pad{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    margin: 0rem;
+}
+
+.ul-pad1{
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
+}
+
